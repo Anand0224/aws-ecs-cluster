@@ -24,11 +24,5 @@ pipeline {
                 bat 'C:\\terraform\\terraform.exe apply plan_to_apply'
             }
         }
-
-        stage('destroy') {
-            steps {
-                bat 'C:\\terraform\\terraform.exe destroy'
-            }
-        }
     }
 }
