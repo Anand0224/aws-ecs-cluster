@@ -11,17 +11,17 @@ pipeline {
         }
         stage('init') {
             steps {
-                bat 'terraform init'
+                bat 'C:\\terraform\\terraform.exe init'
             }
         }
         stage('plan') {
             steps {
-                bat 'terraform plan -out "plan_to_apply'
+                bat 'C:\\terraform\\terraform.exe plan -out "plan_to_apply'
             }
         }
         stage('apply') {
             steps {
-                bat 'terraform apply plan_to_apply'
+                bat 'C:\\terraform\\terraform.exe apply plan_to_apply'
             }
         }
     }
