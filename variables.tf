@@ -28,8 +28,12 @@ variable "ecs_service_name" {
   description = "ECS service"
 }
 
-
 variable "launch_type" {
   default     = "FARGATE"
   description = "ECS launch type"
-}
+}  
+
+variable "desired_count" {
+  default     = 2
+  description = "Container instances"
+} 
