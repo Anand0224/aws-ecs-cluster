@@ -1,3 +1,7 @@
+variable "vpc_name" {
+  default = "demo_vpc"  
+}
+
 variable "vpc_cidr" {
   default     = "10.0.0.0/16"
   description = "VPC cidr"
@@ -28,8 +32,12 @@ variable "ecs_service_name" {
   description = "ECS service"
 }
 
-
 variable "launch_type" {
   default     = "FARGATE"
   description = "ECS launch type"
-}
+}  
+
+variable "desired_count" {
+  default     = 2
+  description = "Container instances"
+} 
