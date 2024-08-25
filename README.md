@@ -5,6 +5,6 @@ link: https://app.eraser.io/workspace/gplsGZk0kaG1osNNqgOV?elements=yL7ObMWVeKHS
 # CICD tools
 * Jenkins
 * pipeline
-* Git
+* GitHub repo
 * Terraform
 * AWS
