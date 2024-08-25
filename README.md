@@ -8,3 +8,6 @@ link: https://app.eraser.io/workspace/gplsGZk0kaG1osNNqgOV?elements=yL7ObMWVeKHS
 * GitHub repo
 * Terraform
 * AWS
+# Jenkins pipeline stages
+
+<img width="553" alt="image" src="https://github.com/user-attachments/assets/1398f7de-1a2d-4754-b0ee-ca8a6e7487de">
