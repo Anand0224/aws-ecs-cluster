@@ -1,3 +1,5 @@
+# video link
+ https://www.youtube.com/watch?v=C4KHA3zMz4c
 # aws ECS cluster Architecture diagram
 
 ![image](https://github.com/user-attachments/assets/06efa5e7-12e3-4257-b7c4-00326df13846)
